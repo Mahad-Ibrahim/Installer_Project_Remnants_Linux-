@@ -82,7 +82,6 @@ cp "${JSON_FILE}" "${BACKUP_JSON_FILE}"
 
 echo "Patching classpath and vmArgs..."
 jq '
-  .classpath += ["NPCFW.jar"] | .classpath |= unique |
   .vmArgs += ["-javaagent:NPCFW.jar"] | .vmArgs |= unique
 ' "${JSON_FILE}" > "${JSON_FILE}.tmp" && mv -f "${JSON_FILE}.tmp" "${JSON_FILE}"
 
