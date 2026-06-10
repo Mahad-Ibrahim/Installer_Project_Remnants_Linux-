@@ -85,6 +85,7 @@ jq '
 ' "${JSON_FILE}" > "${JSON_FILE}.tmp" && mv -f "${JSON_FILE}.tmp" "${JSON_FILE}"
 
 echo "Success! Project Remnants is installed."
+EOF
 
 ```
 
