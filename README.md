@@ -114,7 +114,3 @@ I haven't tested this on the aforementioned but it should work perfectly fine fo
 You can raise an issue on this github if it's not working or comment, I'll see what I can do and try to fix it.
 
 Don't run this as sudo.
-
-```
-
-```
