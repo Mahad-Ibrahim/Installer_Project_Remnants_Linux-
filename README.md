@@ -16,6 +16,8 @@ If you have installed the game or have your steam library in a custom path. Chec
 
 The script is pretty simple for the most part. If you don't want to download the file for whatever reason you can use this shell command.
 
+Just copy the below block.
+
 ```bash
 cat << 'EOF' > scriptForLinux.sh
 #!/usr/bin/env bash
